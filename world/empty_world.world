@@ -9,10 +9,11 @@
     <include>
       <uri>model://ground_plane</uri>
     </include>
-    <!-- ground plane-->
+    <!-- kinect 
     <include>
       <uri>model://kinect</uri>
+      <static>true</static>
       <pose>0 0 1 0 0 0</pose>
-    </include>
+    </include>-->
   </world>
 </sdf>
